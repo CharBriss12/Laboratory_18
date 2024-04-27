@@ -3,4 +3,4 @@ project(Laboratory_18 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Laboratory_18 main.c string/string.c string/string.h)
+add_executable(Laboratory_18 main.c string/string.c string/string.h Laboratory18_solutions.c Laboratory18_solutions.h)

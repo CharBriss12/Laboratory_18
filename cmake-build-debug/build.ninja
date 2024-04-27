@@ -61,6 +61,12 @@ build CMakeFiles/Laboratory_18.dir/string/string.c.obj: C_COMPILER__Laboratory_1
   OBJECT_DIR = CMakeFiles\Laboratory_18.dir
   OBJECT_FILE_DIR = CMakeFiles\Laboratory_18.dir\string
 
+build CMakeFiles/Laboratory_18.dir/Laboratory18_solutions.c.obj: C_COMPILER__Laboratory_18_Debug C$:/Users/charl/CLionProjects/Laboratory_18/Laboratory18_solutions.c || cmake_object_order_depends_target_Laboratory_18
+  DEP_FILE = CMakeFiles\Laboratory_18.dir\Laboratory18_solutions.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Laboratory_18.dir
+  OBJECT_FILE_DIR = CMakeFiles\Laboratory_18.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Laboratory_18
@@ -69,7 +75,7 @@ build CMakeFiles/Laboratory_18.dir/string/string.c.obj: C_COMPILER__Laboratory_1
 #############################################
 # Link the executable Laboratory_18.exe
 
-build Laboratory_18.exe: C_EXECUTABLE_LINKER__Laboratory_18_Debug CMakeFiles/Laboratory_18.dir/main.c.obj CMakeFiles/Laboratory_18.dir/string/string.c.obj
+build Laboratory_18.exe: C_EXECUTABLE_LINKER__Laboratory_18_Debug CMakeFiles/Laboratory_18.dir/main.c.obj CMakeFiles/Laboratory_18.dir/string/string.c.obj CMakeFiles/Laboratory_18.dir/Laboratory18_solutions.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Laboratory_18.dir
